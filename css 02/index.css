@@ -1,0 +1,75 @@
+
+/* =======Comond css staer=== */
+*{
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box;
+}
+
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* ===Commond css End */
+
+
+/* Navver Css Start here */
+nav{
+    background-color: #011627;
+    text-align: center;
+    padding: 25px 0;
+    border-bottom:2px solid #fe0000 ;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: 700px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    color: orangered;
+}
+
+nav ul li .submenu{
+    margin-top: 150px;
+    position: absolute;
+    width: 150px;
+    border: 1px solid #4a4a4a;
+    border-top: 2px solid red;
+    opacity: 0;
+    visibility:visible;
+    transition:  1000ms;
+}
+
+nav ul li:hover .submenu{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 25px;
+}
+
+
+nav ul li .submenu li{
+    display:block;
+    color: #000000;
+    background-color: #ffffff78;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+
+nav ul li .submenu li a{
+    display: block;
+}
+/* Navver Css End here */
